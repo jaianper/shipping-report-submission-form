@@ -65,8 +65,6 @@ interface FormValidation {
 
 const useScreenInfo = () => {
   const getScreenInfo = () => ({
-    //width: window.innerWidth,
-    //height: window.innerHeight,
     orientation: window.innerWidth > window.innerHeight ? "landscape" : "portrait"
   });
 
