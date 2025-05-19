@@ -255,6 +255,7 @@ const RSFApp = () => {
     });
   };
 
+  // Changing the canvas size depends on whether the device is in landscape or portrait mode.
   const setCanvasSize = () => {
     if(orientation === "landscape") {
       setCanvasWidth(648);
